@@ -5,3 +5,27 @@
 .App-intro {
   font-size: large;
 }
+
+.header {
+  height: 110px;
+}
+
+.logo {
+  height: 100px;
+  animation: logo-raise-lower infinite 6s linear;
+}
+
+@keyframes logo-raise-lower {
+  from {
+    margin-top: 10px;
+    transform: rotate(0deg);
+  }
+  50% {
+    margin-top: 0;
+    transform: rotate(15deg);
+  }
+  to {
+    margin-top: 10px;
+    transform: rotate(0deg);
+  }
+}

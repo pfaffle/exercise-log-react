@@ -11,8 +11,8 @@ const MainMenu = () => {
         <Link to={`/new`}><Button>Log new exercise</Button></Link>
         <Link to={`/log`}><Button>View exercises</Button></Link>
 
-        <Route path={`/new`} component={NewExercise}/>
-        <Route path={`/log`} component={ExerciseLog}/>
+        <Route path={`/new`} component={NewExercise} />
+        <Route path={`/log`} component={ExerciseLog} />
       </div>
     </Router>
   )
